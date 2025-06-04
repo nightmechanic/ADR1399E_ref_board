@@ -6308,7 +6308,7 @@
 		)
 		(uuid "d02d752f-3d87-438b-802b-4633503e6bdd")
 	)
-	(text_box "To Be placed over Rn1"
+	(text_box "To Be placed over RN1"
 		(exclude_from_sim no)
 		(at 60.325 165.1 0)
 		(size 35.56 17.78)
