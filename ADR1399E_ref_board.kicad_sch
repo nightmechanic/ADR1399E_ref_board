@@ -4011,6 +4011,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Samacsys:CMS06_TE12L,Q,M_"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 11.43 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "CMS06_TE12L,Q,M_"
+				(at 11.43 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Samacsys:SODFL4724X108N"
+				(at 11.43 -97.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1390061.pdf"
+				(at 11.43 -197.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, SBD, 30V/2A, M-FLAT Toshiba CMS06(TE12L,Q,M), SMT Diode, 30V 2A, 2-Pin M-FLAT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.08"
+				(at 11.43 -397.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "757-CMS06TE12L,Q,M"
+				(at 11.43 -497.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS06TE12LQM?qs=3oXjESXZBsBUDoR5avI6WQ%3D%3D"
+				(at 11.43 -597.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 11.43 -697.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
+				(at 11.43 -797.46 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "CMS06_TE12L,Q,M__1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Samacsys:PTVS11VP1UP,115"
 			(pin_names
 				(hide yes)
@@ -4465,354 +4657,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Snapeda:CMS06TE12L_Q_M"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CR"
-				(at 5.08 4.445 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "CMS06TE12L_Q_M"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Snapeda:M-FLAT_TOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "CMS06TE12L_Q_M"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "CMS06(TE12L,Q,M)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "M-FLAT_TOS M-FLAT_TOS-M M-FLAT_TOS-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CMS06TE12L_Q_M_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.032) (xy 3.81 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 2.032) (xy 4.572 2.032) (xy 4.572 1.524)
-					)
-					(stroke
-						(width 0.2)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 6.35 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -2.032) (xy 3.048 -2.032) (xy 3.048 -1.524)
-					)
-					(stroke
-						(width 0.2)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.905) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CMS06TE12L_Q_M_1_2"
-				(polyline
-					(pts
-						(xy -1.905 6.35) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 3.81) (xy 1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 6.35) (xy -1.905 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 6.35) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6404,6 +6248,12 @@
 		(uuid "1d27dae3-bb1b-4ffb-863e-0726c725ddf8")
 	)
 	(junction
+		(at 158.75 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd3373f-5586-45cd-99f9-ceac02f591d4")
+	)
+	(junction
 		(at 156.21 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6494,12 +6344,6 @@
 		(uuid "55ad5046-ef6b-4822-a9a6-9fe94bf32385")
 	)
 	(junction
-		(at 160.02 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "571e63cb-b356-4a74-98e5-3496cc35a515")
-	)
-	(junction
 		(at 191.77 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6560,12 +6404,6 @@
 		(uuid "6aa4d006-3304-4c54-934a-42bbdff561b3")
 	)
 	(junction
-		(at 125.73 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cce6c34-8dbf-4aa3-ab17-528a17689290")
-	)
-	(junction
 		(at 237.49 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6600,6 +6438,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ac8661d-d773-4e08-a3c1-450aec60d1f8")
+	)
+	(junction
+		(at 107.95 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cfcbaa6-11b9-4212-b1c2-f7effe34a6b2")
 	)
 	(junction
 		(at 132.08 113.03)
@@ -6644,12 +6488,6 @@
 		(uuid "8b4e3e48-60c9-437b-b239-1819365f1d86")
 	)
 	(junction
-		(at 107.95 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bd083cf-f80b-4d46-9aa8-c0ef04bc24da")
-	)
-	(junction
 		(at 157.48 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6690,6 +6528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c00db33-1724-4245-ab61-3aafdbf8a4b1")
+	)
+	(junction
+		(at 125.73 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c5e39f4-b345-4291-bd7a-6eac7229a54d")
 	)
 	(junction
 		(at 177.8 93.98)
@@ -7297,6 +7141,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 52.07) (xy 125.73 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a16632f-3ea6-4825-979c-a208ebcd63f9")
+	)
+	(wire
+		(pts
 			(xy 116.84 93.98) (xy 116.84 95.25)
 		)
 		(stroke
@@ -7367,16 +7221,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 38.1) (xy 158.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2178cf1b-011a-47d3-9d4d-3b98846bce9f")
-	)
-	(wire
-		(pts
 			(xy 156.21 140.97) (xy 156.21 143.51)
 		)
 		(stroke
@@ -7434,16 +7278,6 @@
 			(type default)
 		)
 		(uuid "23cc5567-8cf9-413d-8c81-44134e0dc28b")
-	)
-	(wire
-		(pts
-			(xy 171.45 52.07) (xy 173.99 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "264289f5-9644-4253-b772-5f4c2a0395cf")
 	)
 	(wire
 		(pts
@@ -7847,16 +7681,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 52.07) (xy 111.76 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45331245-5bc3-4dc9-9013-039d4e930610")
-	)
-	(wire
-		(pts
 			(xy 142.24 162.56) (xy 144.78 162.56)
 		)
 		(stroke
@@ -7917,7 +7741,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 160.02 57.15)
+			(xy 158.75 52.07) (xy 158.75 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8537,7 +8361,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 160.02 52.07)
+			(xy 153.67 52.07) (xy 158.75 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8817,7 +8641,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 57.15) (xy 160.02 57.15)
+			(xy 167.64 57.15) (xy 158.75 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8854,16 +8678,6 @@
 			(type default)
 		)
 		(uuid "9da47e2f-2e68-4c55-a85f-4eeb8ccb4cd6")
-	)
-	(wire
-		(pts
-			(xy 168.91 38.1) (xy 187.96 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dd523e1-6cf9-4dca-a427-b17d21b82397")
 	)
 	(wire
 		(pts
@@ -8944,6 +8758,16 @@
 			(type default)
 		)
 		(uuid "a9a2081a-b7d0-4ad7-bb43-94dcca64a4a2")
+	)
+	(wire
+		(pts
+			(xy 171.45 38.1) (xy 187.96 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa89628b-c4cd-425a-9d08-49bc2e26f10b")
 	)
 	(wire
 		(pts
@@ -9284,6 +9108,16 @@
 			(type default)
 		)
 		(uuid "c19f834c-4780-42f3-b9b4-fd928988e594")
+	)
+	(wire
+		(pts
+			(xy 148.59 38.1) (xy 156.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19f85d5-2ee2-42be-afba-9ee89c38c6fc")
 	)
 	(wire
 		(pts
@@ -9817,16 +9651,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 52.07) (xy 125.73 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e063ede9-15b5-4e41-b51e-8728f199d9f8")
-	)
-	(wire
-		(pts
 			(xy 107.95 41.91) (xy 100.33 41.91)
 		)
 		(stroke
@@ -9864,16 +9688,6 @@
 			(type default)
 		)
 		(uuid "e31e9616-ced7-4498-b0ae-3610512264da")
-	)
-	(wire
-		(pts
-			(xy 160.02 52.07) (xy 161.29 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e496e88f-5d6c-4ccb-9577-207393c596f7")
 	)
 	(wire
 		(pts
@@ -10522,7 +10336,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 0b35e0cb-1565-45ff-b806-720416df0ab0)
+			(uuid 64813dc1-093e-451a-a2b7-ca84fd11fd9f)
 		)
 	)
 	(symbol
@@ -11841,6 +11655,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:CMS06_TE12L,Q,M_")
+		(at 171.45 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bbdeb3e-8c92-4e46-b48c-af07d1afd63b")
+		(property "Reference" "D5"
+			(at 163.83 31.4155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMS06_TE12L,Q,M_"
+			(at 163.83 33.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SODFL4724X108N"
+			(at 160.02 -59.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1390061.pdf"
+			(at 160.02 -159.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, SBD, 30V/2A, M-FLAT Toshiba CMS06(TE12L,Q,M), SMT Diode, 30V 2A, 2-Pin M-FLAT"
+			(at 171.45 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.08"
+			(at 160.02 -359.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-CMS06TE12L,Q,M"
+			(at 160.02 -459.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS06TE12LQM?qs=3oXjESXZBsBUDoR5avI6WQ%3D%3D"
+			(at 160.02 -559.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 160.02 -659.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
+			(at 160.02 -759.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87409335-721d-4dad-895e-261220b0e473")
+		)
+		(pin "1"
+			(uuid "8020410b-7aa7-45df-bd0a-90b8a9ac473f")
+		)
+		(instances
+			(project ""
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 64.77 52.07 0)
 		(unit 1)
@@ -12050,95 +11984,6 @@
 			(project ""
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "RN1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:CMS06TE12L_Q_M")
-		(at 168.91 38.1 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e1acb62-2d9d-4961-be67-f984d0865f6a")
-		(property "Reference" "CR1"
-			(at 163.83 31.463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CMS06TE12L_Q_M"
-			(at 163.83 34.2959 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SODFL4724X108N"
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CMS06TE12L_Q_M"
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Toshiba"
-			(at 168.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "969a95fc-7afb-45af-8a6a-c96ffd9ad905")
-		)
-		(pin "2"
-			(uuid "05df3446-5494-4296-a56a-527bdb2cff70")
-		)
-		(instances
-			(project ""
-				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
-					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -15474,6 +15319,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:CMS06_TE12L,Q,M_")
+		(at 123.19 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60bed5f6-aff7-40d9-a020-c20e52769ca0")
+		(property "Reference" "D7"
+			(at 111.76 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMS06_TE12L,Q,M_"
+			(at 112.268 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SODFL4724X108N"
+			(at 111.76 -45.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1390061.pdf"
+			(at 111.76 -145.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, SBD, 30V/2A, M-FLAT Toshiba CMS06(TE12L,Q,M), SMT Diode, 30V 2A, 2-Pin M-FLAT"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.08"
+			(at 111.76 -345.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-CMS06TE12L,Q,M"
+			(at 111.76 -445.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS06TE12LQM?qs=3oXjESXZBsBUDoR5avI6WQ%3D%3D"
+			(at 111.76 -545.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 111.76 -645.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
+			(at 111.76 -745.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2773cd8-f8df-4a82-b74f-e56a1f40d5bd")
+		)
+		(pin "1"
+			(uuid "a22b9cb7-a3d7-4f3d-9ee2-f7854a0a63b8")
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 170.18 156.21 0)
 		(unit 1)
@@ -15557,7 +15521,7 @@
 			)
 		)
 		(property "Value" "1.5uH 1A 78mOhm"
-			(at 177.8 49.8445 90)
+			(at 180.594 50.038 90)
 			(effects
 				(font
 					(size 1 1)
@@ -17844,6 +17808,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Samacsys:CMS06_TE12L,Q,M_")
+		(at 173.99 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "948afa28-b74f-4382-bbd7-047f3d722f02")
+		(property "Reference" "D6"
+			(at 162.56 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CMS06_TE12L,Q,M_"
+			(at 163.068 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Samacsys:SODFL4724X108N"
+			(at 162.56 -45.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1390061.pdf"
+			(at 162.56 -145.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, SBD, 30V/2A, M-FLAT Toshiba CMS06(TE12L,Q,M), SMT Diode, 30V 2A, 2-Pin M-FLAT"
+			(at 173.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.08"
+			(at 162.56 -345.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-CMS06TE12L,Q,M"
+			(at 162.56 -445.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/CMS06TE12LQM?qs=3oXjESXZBsBUDoR5avI6WQ%3D%3D"
+			(at 162.56 -545.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 162.56 -645.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
+			(at 162.56 -745.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82cd9940-db74-4498-aa16-c00a14541fd8")
+		)
+		(pin "1"
+			(uuid "2327cdda-d4d3-4d43-bc9e-55ed766c943d")
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 166.37 125.73 0)
 		(unit 1)
@@ -18542,95 +18625,6 @@
 			(project ""
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:CMS06TE12L_Q_M")
-		(at 121.92 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a79978fb-14b7-47d3-be46-e51fb76fe284")
-		(property "Reference" "CR2"
-			(at 116.84 46.6769 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CMS06TE12L_Q_M"
-			(at 116.84 48.7231 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SODFL4724X108N"
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CMS06TE12L_Q_M"
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Toshiba"
-			(at 121.92 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1cd985-178b-4172-a7dc-510c390006ad")
-		)
-		(pin "2"
-			(uuid "5ebac5a9-d0a1-4d7b-8e11-81cc2dddbf1a")
-		)
-		(instances
-			(project "ADR1399E_ref_board"
-				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
-					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -20088,94 +20082,6 @@
 			(project ""
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Snapeda:CMS06TE12L_Q_M")
-		(at 171.45 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c74b1303-01d6-40b7-961e-e6bbedf8287b")
-		(property "Reference" "CR3"
-			(at 166.37 45.433 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CMS06TE12L_Q_M"
-			(at 166.878 48.006 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" "Samacsys:SODFL4724X108N"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "CMS06TE12L_Q_M"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CMS06(TE12L,Q,M)"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Toshiba"
-			(at 171.45 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d6145d1-85ff-46d1-b323-5b315e62e88d")
-		)
-		(pin "2"
-			(uuid "6fb55d6b-9fe8-493b-a449-a3ea5dfc3f41")
-		)
-		(instances
-			(project "ADR1399E_ref_board"
-				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
-					(reference "CR3")
 					(unit 1)
 				)
 			)
