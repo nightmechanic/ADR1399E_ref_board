@@ -10522,7 +10522,7 @@
 			(fill
 				(type none)
 			)
-			(uuid f036681d-c612-4598-b239-adc4572a3804)
+			(uuid 0b35e0cb-1565-45ff-b806-720416df0ab0)
 		)
 	)
 	(symbol
@@ -11402,7 +11402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92-2"
+		(property "Footprint" "Snapeda:LMT01LPG_LPG0002A"
 			(at 69.85 184.15 0)
 			(effects
 				(font
@@ -12082,7 +12082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:M-FLAT_TOS"
+		(property "Footprint" "Samacsys:SODFL4724X108N"
 			(at 168.91 38.1 0)
 			(effects
 				(font
@@ -13500,7 +13500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
+		(property "Footprint" "Samacsys:ASPI-6045S"
 			(at 96.52 41.91 0)
 			(effects
 				(font
@@ -18574,7 +18574,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:M-FLAT_TOS"
+		(property "Footprint" "Samacsys:SODFL4724X108N"
 			(at 121.92 52.07 0)
 			(effects
 				(font
@@ -20119,7 +20119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Snapeda:M-FLAT_TOS"
+		(property "Footprint" "Samacsys:SODFL4724X108N"
 			(at 171.45 52.07 0)
 			(effects
 				(font
