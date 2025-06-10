@@ -239,12 +239,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|393700|1676400|159aa98d-b376-4f4f-94d0-d918bf574bb1|00000000-0000-0000-0000-000000000000|/33739d79-251e-4733-a560-8fa5c8765c47|/33739d79-251e-4733-a560-8fa5c8765c47|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -492,16 +487,26 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.2,
         "line_style": 0,
         "name": "Inductance",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(26, 15, 255)",
         "track_width": 1.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 12
+      },
+      {
+        "clearance": 0.2,
+        "name": "thin",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -513,6 +518,14 @@
       {
         "netclass": "Inductance",
         "pattern": "/Inductance"
+      },
+      {
+        "netclass": "thin",
+        "pattern": "Net-(U1-OUTS)"
+      },
+      {
+        "netclass": "thin",
+        "pattern": "Net-(U1-PG)"
       }
     ]
   },
