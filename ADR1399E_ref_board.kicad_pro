@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.5,
-          "width": 1.0
+          "drill": 1.0,
+          "height": 1.4,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,104 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|56550000|125025000|2f19dc97-1341-4b6f-9b6d-cc3251ae83ff|427af795-8fb2-439c-a98b-120b90edc7fa",
+          ""
+        ],
+        [
+          "clearance|56950000|120800000|a1ce19d4-69ca-40ff-b40e-d304b319dcbb|57bc218c-48e7-484a-835f-2318c108f2d6",
+          ""
+        ],
+        [
+          "clearance|57200000|125025000|427af795-8fb2-439c-a98b-120b90edc7fa|aa468519-3931-4acd-bb25-b191049a333b",
+          ""
+        ],
+        [
+          "clearance|57600000|120800000|b8510730-0df0-47f5-b53d-a24a2cc6129b|a1ce19d4-69ca-40ff-b40e-d304b319dcbb",
+          ""
+        ],
+        [
+          "clearance|57850000|125025000|aa468519-3931-4acd-bb25-b191049a333b|16dea941-aacf-4eb8-947f-539736ad8ffa",
+          ""
+        ],
+        [
+          "clearance|58250000|120800000|cb681a43-8ad3-46df-bd57-30fbe50260f1|b8510730-0df0-47f5-b53d-a24a2cc6129b",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|33575000|119280000|d9458ec6-e01e-46a7-958d-6368b41845fa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|37475000|92650000|d440061e-0e34-4dfe-b25e-0fba0a2e022a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|59000000|83200000|f076e127-7ced-4e08-906f-7ea9ec27e91f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|43150000|90150000|222fe3fa-9f4a-4efb-92d9-8b5ff05b315d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "net_conflict|43150000|90150000|69358c25-5081-4641-9e70-c50d04d0dfb1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|31000000|87590000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|e03782a2-cc90-4d55-a507-06492ea293b6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|31000000|97710000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|d5e243ff-67a3-4582-a1b2-d861677774b7",
+          ""
+        ],
+        [
+          "silk_edge_clearance|85327500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|1ba9d5f7-d446-4a04-937a-f5895ca33e39",
+          ""
+        ],
+        [
+          "silk_edge_clearance|87637500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|af37534b-cf72-4359-bb00-1ff55a0c4c4e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|88137500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|faa9204d-ba6c-4425-a5e7-ac3b4325b15c",
+          ""
+        ],
+        [
+          "silk_edge_clearance|90137500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|d5c167af-143a-4a88-a27e-34c938174782",
+          ""
+        ],
+        [
+          "silk_edge_clearance|90637500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|2331cef9-43a4-4ba2-abf5-bbf30a45d79a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|92637500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|30af9cc5-52ed-49d0-9787-89f15ba9e7c9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|93137500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|9d303f6e-66b6-4f44-b244-50e2aac88573",
+          ""
+        ],
+        [
+          "silk_edge_clearance|95137500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|01a58b86-e555-4c71-bfce-00d9de89ecd8",
+          ""
+        ],
+        [
+          "silk_edge_clearance|95637500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|bc7314c4-2255-4f9b-851c-0006742d5d8a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|97947500|134000000|4396cd22-8f5f-42c4-9a8e-ddf8b8f33da9|958323f2-6d74-4f8b-903d-5065a7e3b4f2",
+          ""
+        ],
+        [
+          "starved_thermal|120480000|119480000|f72648d0-b022-457a-a029-d871a3b200d0|062813e0-1119-44ce-b98e-d7808a3e6c98|B.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -135,7 +232,7 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.5,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
