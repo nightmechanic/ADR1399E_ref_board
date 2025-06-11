@@ -3120,6 +3120,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Reference_Voltage:ADR1399KEZ"
 			(pin_names
 				(offset 1.016)
@@ -6584,18 +6667,6 @@
 		(uuid "b27a11eb-e9d6-49fb-a0dc-938c5c5afcf4")
 	)
 	(junction
-		(at 114.3 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3321ae3-35c2-494a-8c32-cbc6a1487408")
-	)
-	(junction
-		(at 125.73 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3d6828c-8a0d-4e21-b3a8-ba428231b6b8")
-	)
-	(junction
 		(at 156.21 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7921,23 +7992,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 125.73 113.03)
+			(xy 114.3 113.03) (xy 132.08 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5d03676e-2f55-46d2-bed8-6d2ebe25eb77")
-	)
-	(wire
-		(pts
-			(xy 125.73 113.03) (xy 125.73 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d6bf051-0def-4bbe-818a-3535d3801489")
 	)
 	(wire
 		(pts
@@ -8691,16 +8752,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 125.73) (xy 114.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a22e3d8b-72dc-4e02-b22b-2706665358ca")
-	)
-	(wire
-		(pts
 			(xy 125.73 52.07) (xy 137.16 52.07)
 		)
 		(stroke
@@ -9038,16 +9089,6 @@
 			(type default)
 		)
 		(uuid "bcb9c7ab-1782-47c3-892b-89080b276c91")
-	)
-	(wire
-		(pts
-			(xy 125.73 123.19) (xy 125.73 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf49dfe7-4acb-4cdf-8c36-c8b491d9e723")
 	)
 	(wire
 		(pts
@@ -9821,7 +9862,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 114.3 125.73)
+			(xy 114.3 123.19) (xy 114.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9878,16 +9919,6 @@
 			(type default)
 		)
 		(uuid "f5774666-d3a3-47bc-b8aa-d420be48b609")
-	)
-	(wire
-		(pts
-			(xy 125.73 125.73) (xy 114.3 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59e4b86-19ca-48d8-8203-3d50a94a569a")
 	)
 	(wire
 		(pts
@@ -9978,16 +10009,6 @@
 			(type default)
 		)
 		(uuid "feda41e0-2598-4d3f-8f3f-b22458d99dff")
-	)
-	(wire
-		(pts
-			(xy 125.73 113.03) (xy 132.08 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fedaab61-dd44-41ab-82af-3024f87e4a7f")
 	)
 	(table
 		(column_count 2)
@@ -10336,7 +10357,71 @@
 			(fill
 				(type none)
 			)
-			(uuid 64813dc1-093e-451a-a2b7-ca84fd11fd9f)
+			(uuid a15ab1a3-7621-47df-9611-c7ab05d7f855)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05cbf2b2-1b41-407b-98b7-cc564214662c")
+		(property "Reference" "H3"
+			(at 21.59 185.4778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 187.9021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 19.05 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11184,6 +11269,70 @@
 			(project "ADR1399E_ref_board"
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12fe90b0-5201-4de4-85f2-ea261dedf260")
+		(property "Reference" "H7"
+			(at 68.58 189.2878 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 191.7121 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -12643,6 +12792,70 @@
 			(project "ADR1399E_ref_board"
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d89fe20-e6d0-433d-895c-8e14ced8b88f")
+		(property "Reference" "H4"
+			(at 21.59 190.5578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 192.9821 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -14554,6 +14767,70 @@
 			(project ""
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51d17267-e068-4ead-a17c-fd38eaabb738")
+		(property "Reference" "H1"
+			(at 21.59 175.3178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 177.7421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 19.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -18233,93 +18510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 125.73 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b942daa-5734-4eb4-aa37-fc8dfe7e2626")
-		(property "Reference" "C22"
-			(at 128.651 118.1678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF 25V"
-			(at 126.238 121.666 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 126.6952 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 125.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 125.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TMK107ABJ225KA-T"
-			(at 125.73 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fae8514b-fc20-414f-8053-72642ac75a44")
-		)
-		(pin "1"
-			(uuid "8990b8c3-7cb4-475e-9c32-c4b9e899f37a")
-		)
-		(instances
-			(project "ADR1399E_ref_board"
-				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 69.85 44.45 0)
 		(unit 1)
@@ -18469,6 +18659,70 @@
 			(project ""
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27e7348-2830-4c12-b587-218561d4a259")
+		(property "Reference" "H6"
+			(at 49.53 193.0978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 49.53 195.5221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -18823,6 +19077,70 @@
 			(project ""
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 66.04 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0b70a63-aace-44f4-b8aa-be46fd5efcef")
+		(property "Reference" "H8"
+			(at 68.58 194.3678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 68.58 196.7921 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 66.04 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 66.04 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -19356,6 +19674,70 @@
 			(project "ADR1399E_ref_board"
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 19.05 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bad00756-87b9-41c2-b3c9-4c8c322d3004")
+		(property "Reference" "H2"
+			(at 21.59 180.3978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 21.59 182.8221 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+			(at 19.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 19.05 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ADR1399E_ref_board"
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -22179,6 +22561,70 @@
 			(project "ADR1399E_ref_board"
 				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa92e54-c645-46de-ab2d-c83ea4df06f3")
+		(property "Reference" "H5"
+			(at 49.53 188.0178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 49.53 190.4421 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 46.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/33739d79-251e-4733-a560-8fa5c8765c47"
+					(reference "H5")
 					(unit 1)
 				)
 			)
