@@ -7536,7 +7536,7 @@
 				)
 			)
 		)
-		(property "Value" "17.8k 0.1%"
+		(property "Value" "14.7k 0.1%"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "ceaff7df-2ad9-46ae-8852-0a6df476aff0")
@@ -8749,7 +8749,7 @@
 				)
 			)
 		)
-		(property "Value" "20k 0.1%"
+		(property "Value" "15.8k 0.1%"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "840dcf19-5a76-4817-a47b-d918ebb6ef94")
@@ -12803,7 +12803,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP7118ARDZ-R7"
+		(property "Value" "ADP7142ARDZ-R7"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "2ef3a20f-f08d-4461-a142-965cfd3ee990")
@@ -12890,7 +12890,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ADP7118ARDZ-R7"
+		(property "Manufacturer_Part_Number" "ADP7142ARDZ-R7"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13271,7 +13271,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "passive")
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "f1d2af40-9fd2-4481-b818-64e9c4ba80c0")
 		)
 		(pad "9" thru_hole circle
 			(at -0.65 1)
@@ -13283,7 +13283,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "passive")
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "9a02f35b-c431-473c-beb2-b94f6279059a")
 		)
 		(pad "9" smd rect
 			(at 0 0)
@@ -13294,7 +13294,7 @@
 			(pinfunction "EP")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "ac130c5d-ac6c-4e17-8087-73b34b615583")
 		)
 		(pad "9" smd rect
 			(at 0 0)
@@ -13305,7 +13305,7 @@
 			(pinfunction "EP")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "eb709b1c-0c04-4a33-a462-a1371df293a5")
 		)
 		(pad "9" thru_hole circle
 			(at 0.65 -1)
@@ -13317,7 +13317,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "passive")
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "06602d2c-ad3a-4534-ab1f-307c507770f7")
 		)
 		(pad "9" thru_hole circle
 			(at 0.65 0)
@@ -13329,7 +13329,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "passive")
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "e5af5226-8627-47fc-a915-0c453e1f789f")
 		)
 		(pad "9" thru_hole circle
 			(at 0.65 1)
@@ -13341,7 +13341,7 @@
 			(net 1 "GND")
 			(pinfunction "EP")
 			(pintype "passive")
-			(uuid "1e526a9a-2b07-4e56-a632-3b19992eb66f")
+			(uuid "c64d9d76-0b3e-498c-a7cc-2a850c0ef361")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"

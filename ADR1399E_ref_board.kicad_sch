@@ -10080,7 +10080,7 @@
 			(fill
 				(type none)
 			)
-			(uuid bb7f894d-0a17-4519-b9ab-4ff167f572d2)
+			(uuid 74559720-5132-4e3e-9e08-5dd1eb53e852)
 		)
 	)
 	(symbol
@@ -12845,7 +12845,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "17.8k 0.1%"
+		(property "Value" "14.7k 0.1%"
 			(at 127.508 69.7921 0)
 			(effects
 				(font
@@ -14670,7 +14670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "20k 0.1%"
+		(property "Value" "15.8k 0.1%"
 			(at 264.668 74.8721 0)
 			(effects
 				(font
@@ -21524,7 +21524,7 @@
 				)
 			)
 		)
-		(property "Value" "ADP7118ARDZ-R7"
+		(property "Value" "ADP7142ARDZ-R7"
 			(at 237.49 47.8098 0)
 			(effects
 				(font
@@ -21601,7 +21601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ADP7118ARDZ-R7"
+		(property "Manufacturer_Part_Number" "ADP7142ARDZ-R7"
 			(at 223.52 846.99 0)
 			(effects
 				(font
