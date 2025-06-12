@@ -5914,6 +5914,26 @@
 		)
 		(uuid "1fb250b6-8f34-4693-8c0d-9cd8194882bd")
 	)
+	(text_box "Tighter values need to be claculated"
+		(exclude_from_sim no)
+		(at 19.05 83.82 0)
+		(size 54.61 46.99)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6fc2731a-9c22-48a4-9fc2-8977770930d1")
+	)
 	(text_box "To Be placed over RN1"
 		(exclude_from_sim no)
 		(at 76.835 165.1 0)
@@ -10058,7 +10078,7 @@
 		)
 		(uuid "e034fa45-24fe-4f45-a812-65b832ef21dd")
 	)
-	(label "12V_Out"
+	(label "15V_Out"
 		(at 120.65 93.98 0)
 		(effects
 			(font
@@ -10407,7 +10427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+15V"
 			(at 266.7 47.9369 0)
 			(effects
 				(font
@@ -14356,7 +14376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "+15V"
 			(at 85.09 83.4969 0)
 			(effects
 				(font
@@ -20358,7 +20378,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180k 0.1%"
+		(property "Value" "120k 0.1%"
 			(at 27.178 128.2121 0)
 			(effects
 				(font
