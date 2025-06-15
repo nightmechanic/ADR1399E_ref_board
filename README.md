@@ -1,4 +1,4 @@
-# ADR1399E Voltage referebce circuit
+# ADR1399E Voltage reference circuit
 
 This is a **hobby grade** 10V (well, close to...) voltage refernce based on Analog Devices' ADR1399E reference.
 It can be powered with either 5V USB (using a boost switching regulator) , or a 5S Li-Ion pack (or equivalent)
