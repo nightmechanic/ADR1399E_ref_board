@@ -641,7 +641,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ADR1399E_ref_board.step",
       "svg": "",
       "vrml": ""
     },
