@@ -16,4 +16,5 @@ Designed in KiCad (9.0)
 - With 4mm and 2mm Banana socket pairs
 - With an (optional) internal refernce cover, to, somewhat, thermally isolate the refernce "island" from the rest 
 
-Note that top/lid 3d printing may require supports for the screw head recesses 
+Note that top/lid 3d printing may require supports for the screw head recesses
+Th einternal refernce cover will need supports
